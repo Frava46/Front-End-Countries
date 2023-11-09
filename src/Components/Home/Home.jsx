@@ -3,7 +3,7 @@ import Cards from "../Cards/Cards"
 import { useDispatch, useSelector } from "react-redux";
 import { orderCountries, getCountries, filterCountries, orderPupulation, filterByActivity } from "../Redux/actions";
 import Nav from "../Nav/Nav";
-import style from './home.module.css';
+import style from './Home.module.css';
 import axios from "axios";
 
 const Home = () => {
