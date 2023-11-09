@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCountries } from './Components/Redux/actions';
 import Detail from './Components/Detail/Detail';
-import CreateAct from './Components/CreateAct/createAct';
+import CreateAct from './Components/CreateAct/CreateAct';
 import AllActivities from './Components/AllActivities/AllActivities';
 
 function App() {
