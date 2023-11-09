@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { getById } from "../Redux/actions";
-import style from "./card.module.css"
+import style from "./Card.module.css"
 
 const Card = ({id, flagImg, name, continent})=> {
 
