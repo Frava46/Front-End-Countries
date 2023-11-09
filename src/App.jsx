@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import { Routes, Route, } from 'react-router-dom';
-import Home from "./Components/Home/home";
+import Home from "./Components/Home/Home";
 import Landing from "./Components/Landing Page/Landing";
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
