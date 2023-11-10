@@ -67,7 +67,7 @@ export const  filterCountries = (value) => {
 export const postActivity = (activity) => {
    return async (dispatch) => {
       try{
-         const {data} = await axios.post("http://localhost:3001/activities", activity)
+         const {data} = await axios.post("/activities", activity)
          // console.log(data)
          return dispatch({type: POST_ACTIVITY, payload: data});
       } catch(error) {
@@ -80,7 +80,7 @@ export const getActivity = ()=> {
 
    return async(dispatch) => {
       try{
-         const {data} = await axios.get("http://localhost:3001/activities");
+         const {data} = await axios.get("/activities");
 
          return dispatch({type: GET_ACTIVITY, payload: data})  
       }catch(error) {
